@@ -7,7 +7,7 @@
  # Status
    This project is for educational purposes and personal curiosity.
 
- `Credit to **Pixabay** for the    illustration.` :hugs:
+ `Credit to *Pixabay* for the    illustration.` :hugs:
 
 
 
