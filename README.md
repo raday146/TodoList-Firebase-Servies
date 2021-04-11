@@ -7,8 +7,8 @@
  # Status
    This project is for educational purposes and personal curiosity.
 
- `Credit to *Pixabay* for the    illustration.` :hugs:
-
 
 
 <img src=https://user-images.githubusercontent.com/57037365/114315343-41720580-9b07-11eb-8531-a4ce930a5d55.jpg width="600" height="500">
+ `Credit to [Pixabay](https://pixabay.com/)  for the    illustration.` :hugs:
+
