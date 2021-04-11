@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/fb1cfd76dd.js" crossorigin="anonymous"></script>    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="todoStyle.css">
+    <title>Todos</title>
+</head>
+<body>
+    <div class="container">
+        <header class="text-center text-light my-4">
+            <h1 class="mb-4">Todo List</h1>
+            <hr class="rounded"> 
+
+            <form class="search my-4">
+                <input class="form-control m-auto" type="text" name="search" required placeholder="search todos"/>
+                <li class="list-group no-result mx-auto  my-4"></li>
+            </form>
+        </header>
+
+        <ul class="list-group todos mx-auto text-light"></ul>
+        <form class="add text-center my-4">
+            <label class="text-light my-1"></label>
+            <hr class="rounded"> 
+
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <div class=" task input-group-text">Task:</div>
+                </div>
+                <input type="text" id="message" class="form-control" name ="add" required placeholder="Add a new task...">
+                <div class="input-group-append">
+                    <input type="submit" class="btn" value="send" id="send">
+                </div>
+            </div>
+
+        </form>
+
+
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-firestore.js"></script>
+    <script src="/chapter9/backTask.js"></script>
+    <script src="actions.js"></script>
+</body>
+</html>

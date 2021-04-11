@@ -1,0 +1,46 @@
+body{
+    /* background: #352f5b;*/
+     background: #352f5b8f;
+     background-image: url("/chapter9/img/watercolour-4117017_1280.png");
+     background-repeat: space;
+ }
+ .container{
+     max-width: 400px;
+ }
+ h1{
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+ input[type=text],
+ input[type=text]:focus{
+     color: #fff;
+     border: none;
+     background: rgba(0, 0,0,0.2);
+     max-width: 400px;
+ }
+ .todos li{
+     /*background: #423a6f;*/
+     background:  #423a6fb0;
+     border-radius: 4px;
+ }
+ .no-result{
+     color: rgba(255, 250, 240, 0.5);
+ }
+ .delete{
+     cursor: pointer;
+ }
+ .filtered{
+  display: none !important;
+ }
+ #send{
+     background: #a19cbda2;;
+ }
+ .task{
+     background: #423a6fa2;
+     border-color: black;
+ }
+ .btn{
+     border-color: bisque;
+ }
+ ::placeholder{
+ background: rgba(255, 255, 255, 0.425);
+ }
